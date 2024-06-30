@@ -1,0 +1,9 @@
+langchain-anthropic
+langchain-openai
+langchain-community
+chromadb
+unstructured[all-docs]
+python-dotenv
+langgraph
+streamlit
+psutil
