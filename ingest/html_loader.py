@@ -13,6 +13,7 @@ _ = load_dotenv()
 # Load HTML content from a file
 
 def upload_html_file_to_vector_db(html_file_path, persistent_dir):
+
     html_elements = partition_html(filename=html_file_path,
                                    chunking_strategy="by_title",
                                    max_characters=4096,
